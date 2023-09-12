@@ -1,0 +1,70 @@
+body {
+  padding-top: 80px;
+  font-family: Work Sans, Arial;
+  height: 900px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(241, 98, 98);
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+  height: 70px;
+  border-bottom-style: solid;
+}
+
+.header-logo {
+  font-weight: 800;
+  margin: 0;
+  justify-content: center;
+}
+
+.home {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.odin-logo {
+  width: 40px;
+  padding-right: 30px;
+}
+.main-content {
+  text-align: center;
+}
+
+.cookbook-image {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.recipes-selection {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-menu {
+  justify-content: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: black;
+  padding-right: 20px;
+}
+
+.food-image {
+  width: 400px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 4px;
+}
