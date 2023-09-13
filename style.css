@@ -2,12 +2,20 @@ body {
   padding-top: 80px;
   font-family: Work Sans, Arial;
   height: 900px;
+  background-color: whit;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(241, 98, 98);
   position: fixed;
   top: 0px;
@@ -15,6 +23,7 @@ body {
   left: 0;
   height: 70px;
   border-bottom-style: solid;
+  border-bottom-width: 5px;
 }
 
 .header-logo {
@@ -27,9 +36,9 @@ body {
   margin-left: 10px;
   padding: 5px;
   font-size: 30px;
-  border-radius: 1px;
   border-style: solid;
   border-color: black;
+  border-width: 5px;
   color: black;
   text-decoration: none;
   border-radius: 10px;
@@ -54,17 +63,18 @@ body {
 }
 
 .recipe-menu {
+  display: flex;
+  padding: 10px;
   justify-content: center;
   border-style: solid;
   border-radius: 10px;
-  border-width: 10px;
+  border-width: 5px;
   border-color: black;
-  padding-right: 20px;
 }
 
 .food-image {
   width: 400px;
   border-radius: 10px;
   border-style: solid;
-  border-width: 4px;
+  border-width: 5px;
 }
